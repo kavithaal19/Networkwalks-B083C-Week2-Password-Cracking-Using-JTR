@@ -7,7 +7,7 @@ Building an authorized password recovery and security assessment framework combi
   <img src="https://img.shields.io/badge/TARGETS-ENCRYPTED_PDF-orange?style=for-the-badge">
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/OS-WINDOWS_%2F_KALI_LINUX-green?style=for-the-badge">
+  
   <img src="https://img.shields.io/badge/TOOLKIT-JTR_%2F_JOHNNY_%2F_NETWORKWALKS-blue?style=for-the-badge">
 </p>
 <p align="center">
