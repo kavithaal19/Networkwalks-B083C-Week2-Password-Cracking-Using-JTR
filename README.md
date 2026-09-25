@@ -21,7 +21,7 @@ This documentation and the techniques described herein are provided strictly for
 
 ### 📝 Project Overview
 
-This project demonstrates the practical implementation of password cracking and file recovery methodologies using both local and browser-based tools. It covers extracting cryptographic hashes from password-protected PDF files, performing dictionary-based attacks, handling wordlist limitations through custom dictionaries, and successfully recovering credentials to restore document access.
+This project demonstrates password cracking in an ethical cybersecurity lab environment. It covers extracting a password hash from a protected PDF and using John the Ripper/Johnny and Networkwalks Password Cracker to recover the password. The project helps understand hashing, password security, cracking techniques, and the importance of using strong passwords.
 
 ## 🧰 Tools & Technologies
 
@@ -102,6 +102,7 @@ This project demonstrates the practical implementation of password cracking and 
 * **Initial Access Denied Error:** During Method 2, the first target file (`My Locked PDF1.pdf`) triggered an `ACCESS DENIED` and an "Exhausted wordlist. No match" status.
 * **Wordlist Limitation:** The default built-in wordlist was insufficient because it did not contain a large enough key space or the correct password variant required to unlock the file.
 * **Custom Wordlist Resolution:** Resolved the issue by uploading an external, comprehensive wordlist containing over 3,000 words via the custom wordlist option, which successfully enabled the tool to locate and recover the password.
+* **Incorrect hash format** – Missing characters or extra characters in the $pdf$... hash can prevent the cracking tools from working.
 
 ### 💡 Lessons Learned
 
@@ -127,7 +128,7 @@ This project demonstrates the practical implementation of password cracking and 
 **Kavitha A L**
 Cyber Security Professional |
 
-LinkedIn:
+LinkedIn:https://www.linkedin.com/in/kavithaal/
 
 ## 🗂️ Project Information
 
