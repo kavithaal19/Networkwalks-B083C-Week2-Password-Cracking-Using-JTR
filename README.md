@@ -12,13 +12,7 @@ Building an authorized password recovery and security assessment framework combi
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/SKILL-PASSWORD_RECOVERY_%2F_HASHING-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/INTERNSHIP-NETWORKWALKS_B083-yellowgreen?style=for-the-badge">
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/GITHUB-CORTEXNEHA-black?style=for-the-badge">
-  <img src="https://img.shields.io/badge/AUTHOR-NEHA_MAKNUR-blueviolet?style=for-the-badge">
-</p>
-
+  
 ---
 
 ### ⚠️ Liability & Educational Disclaimer
