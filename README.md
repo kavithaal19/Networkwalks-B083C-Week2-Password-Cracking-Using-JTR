@@ -69,34 +69,30 @@ This project demonstrates password cracking in an ethical cybersecurity lab envi
 
 * **Hash Calculator Access:** Opened the browser-based Networkwalks Hash Calculator utility.
   
-  ![Hash Calculator Interface](nw-hash-calculator.png)
+  ![Hash Calculator Interface](HashCalculator.png)
 * **File Upload & Parsing:** Uploaded each of the target locked PDF files (`My Locked PDF1.pdf`, `My Locked PDF2.pdf`, and `My Locked PDF3.pdf`) to the Hash Calculator one by one to automatically parse and generate their crackable hash formats.
   
-   ![Password tracker](nw-pwd-cracker.png)
+   ![Password tracker](Password_tracker.png)
   * Extracted the individual hash values for `My Locked PDF1.pdf`, `My Locked PDF2.pdf`, and `My Locked PDF3.pdf` using the Hash Calculator.
 * **Hash String Retrieval:** Copied the complete hash strings beginning with `$pdf$` for each of the respective PDF documents (`My Locked PDF1.pdf`, `My Locked PDF2.pdf`, and `My Locked PDF3.pdf`).
 * **Dictionary Attack Execution:** Navigated to the Networkwalks Password Cracker, pasted the extracted hashes for each file sequentially, activated the built-in dictionary list, and selected `Start Cracking`.
   
-   ![Password Cracker Tool Execution](nw-pdf1-pwd.png)
+   ![Password Cracker Tool Execution 1](Passowrd_Hash.png)
   *Figure: Handling wordlist limitation and custom upload for My Locked PDF1.pdf*
   
-   ![Password Cracker Tool Execution 2](nw-pdf2-pwd.png)
-  *Figure: Cracking password for My Locked PDF2.pdf*
-  
-   ![Password Cracker Tool Execution 3](nw-pdf3-pwd.png)
-  *Figure: Cracking password for My Locked PDF3.pdf*
+   
 
 ### Common Step: Document Unlocking (Applicable to Both Methods)
 
 * **Document Unlocking:** Extracted and copied the matched cleartext passwords (`password1`, `password2`, and `password3`) from the screen display for all three files, then entered them into the PDF reader to successfully open and view all the protected PDF documents.
   
-   ![Password Cracked Successfully](1-pwd-cracked.png)
+   ![Password Cracked Successfully](Password1.png)
   *Figure: Successfully unlocked My Locked PDF1.pdf*
   
-   ![Password 2 Cracked Successfully](2-pwd-cracked.png)
+   ![Password 2 Cracked Successfully](Password2.png)
   *Figure: Successfully unlocked My Locked PDF2.pdf*
   
-   ![Password 3 Cracked Successfully](3-pwd-cracked.png)
+   ![Password 3 Cracked Successfully](Password3.png)
   *Figure: Successfully unlocked My Locked PDF3.pdf*
 
 ### ⚠️ Problems Faced & Solutions
