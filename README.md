@@ -57,12 +57,15 @@ This project demonstrates password cracking in an ethical cybersecurity lab envi
 * **Attack Initialization:** Opened Johnny, selected `Open password file` to load each hash text file sequentially (`hash1.txt`, `hash2.txt`, and `hash3.txt`), and initiated the process using `Start new attack`.
   
    ![Johnny Attack Execution 1](Password_PDF1.png)
+
   *Figure: Cracking password hash for My Locked PDF1.pdf*
   
    ![Johnny Attack Execution 2](Password_PDF2.png)
-  *Figure: Cracking password hash for My Locked PDF2.pdf*
+
+   *Figure: Cracking password hash for My Locked PDF2.pdf*
   
    ![Johnny Attack Execution 3](Password_PDF3.png)
+
   *Figure: Cracking password hash for My Locked PDF3.pdf*
 
 ### Method 2: Password Cracking with Networkwalks Tools (Applied to Multiple Locked PDFs)
@@ -73,7 +76,7 @@ This project demonstrates password cracking in an ethical cybersecurity lab envi
 * **File Upload & Parsing:** Uploaded each of the target locked PDF files (`My Locked PDF1.pdf`, `My Locked PDF2.pdf`, and `My Locked PDF3.pdf`) to the Hash Calculator one by one to automatically parse and generate their crackable hash formats.
   
    ![Password tracker](Password_tracker.png)
-  * Extracted the individual hash values for `My Locked PDF1.pdf`, `My Locked PDF2.pdf`, and `My Locked PDF3.pdf` using the Hash Calculator.
+  * Extracted the individual hash values for `My Locked PDF1.pdf`.
 * **Hash String Retrieval:** Copied the complete hash strings beginning with `$pdf$` for each of the respective PDF documents (`My Locked PDF1.pdf`, `My Locked PDF2.pdf`, and `My Locked PDF3.pdf`).
 * **Dictionary Attack Execution:** Navigated to the Networkwalks Password Cracker, pasted the extracted hashes for each file sequentially, activated the built-in dictionary list, and selected `Start Cracking`.
   
