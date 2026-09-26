@@ -40,27 +40,29 @@ This project demonstrates password cracking in an ethical cybersecurity lab envi
 
 * **JTR & Johnny Download:** Downloaded John the Ripper and the Johnny GUI setup package (`johnny-2.2-win.zip`) from the official Openwall website, mirror links, or the course Google Drive folder.
   
-   ![JTR Download Sources](installations.png)
+   ![](JTR_Download.png)
+   ![](Johnny_Download.png)
+  
+  
 * **Application Installation:** Located and ran the Johnny installer setup file (`johnny-installer.exe`) from the `Downloads` folder to install Johnny on the Windows PC.
   
-    ![Johnny Installer Execution](john-location.png)
 * **Binary Path Configuration:** Configured Johnny by navigating to `Settings` and mapping the executable path to `john.exe` inside the JTR run folder.
   
-   ![Johnny Settings and Path Mapping](browse-john.exe.png)
+   ![](Path_Mapping.png)
 * **PDF Hash Extraction:** Uploaded each of the locked PDF files (`My Locked PDF1.pdf`, `My Locked PDF2.pdf`, and `My Locked PDF3.pdf`) sequentially to an online PDF hash extractor to obtain their respective string values starting with `$pdf$`.
   
-   ![PDF Hash Extractor Upload](hash-exe.png)
+   ![](PDF_Hash.png)
   * Extracted the individual hash values for `My Locked PDF1.pdf`, `My Locked PDF2.pdf`, and `My Locked PDF3.pdf` using the online PDF hash extractor.
 * **Hash File Preparation:** Pasted each extracted hash into Notepad, ensured no extra leading characters remained, and saved them respectively as `hash1.txt`, `hash2.txt`, and `hash3.txt`.
 * **Attack Initialization:** Opened Johnny, selected `Open password file` to load each hash text file sequentially (`hash1.txt`, `hash2.txt`, and `hash3.txt`), and initiated the process using `Start new attack`.
   
-   ![Johnny Attack Execution](johnny-pwd1.png)
+   ![Johnny Attack Execution 1](Password_PDF1.png)
   *Figure: Cracking password hash for My Locked PDF1.pdf*
   
-   ![Johnny Attack Execution 2](johnny-pwd2.png)
+   ![Johnny Attack Execution 2](Password_PDF2.png)
   *Figure: Cracking password hash for My Locked PDF2.pdf*
   
-   ![Johnny Attack Execution 3](johnny-pwd3.png)
+   ![Johnny Attack Execution 3](Password_PDF3.png)
   *Figure: Cracking password hash for My Locked PDF3.pdf*
 
 ### Method 2: Password Cracking with Networkwalks Tools (Applied to Multiple Locked PDFs)
