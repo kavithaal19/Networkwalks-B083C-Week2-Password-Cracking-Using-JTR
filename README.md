@@ -90,13 +90,16 @@ This project demonstrates password cracking in an ethical cybersecurity lab envi
 * **Document Unlocking:** Extracted and copied the matched cleartext passwords (`password1`, `password2`, and `password3`) from the screen display for all three files, then entered them into the PDF reader to successfully open and view all the protected PDF documents.
   
    ![Password Cracked Successfully](Password1.png)
+
   *Figure: Successfully unlocked My Locked PDF1.pdf*
   
    ![Password 2 Cracked Successfully](Password2.png)
-  *Figure: Successfully unlocked My Locked PDF2.pdf*
+
+   *Figure: Successfully unlocked My Locked PDF2.pdf*
   
    ![Password 3 Cracked Successfully](Password3.png)
-  *Figure: Successfully unlocked My Locked PDF3.pdf*
+
+   *Figure: Successfully unlocked My Locked PDF3.pdf*
 
 ### ⚠️ Problems Faced & Solutions
 
