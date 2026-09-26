@@ -73,11 +73,11 @@ This project demonstrates password cracking in an ethical cybersecurity lab envi
 * **Hash Calculator Access:** Opened the browser-based Networkwalks Hash Calculator utility.
   
   ![Hash Calculator Interface](HashCalculator.png)
-* **File Upload & Parsing:** Uploaded each of the target locked PDF files (`My Locked PDF1.pdf`, `My Locked PDF2.pdf`, and `My Locked PDF3.pdf`) to the Hash Calculator one by one to automatically parse and generate their crackable hash formats.
+* **File Upload & Parsing:** Uploaded each of the target locked PDF files (`My Locked PDF1.pdf`) to the Hash Calculator one by one to automatically parse and generate their crackable hash formats.
   
    ![Password tracker](Password_tracker.png)
   * Extracted the individual hash values for `My Locked PDF1.pdf`.
-* **Hash String Retrieval:** Copied the complete hash strings beginning with `$pdf$` for each of the respective PDF documents (`My Locked PDF1.pdf`, `My Locked PDF2.pdf`, and `My Locked PDF3.pdf`).
+* **Hash String Retrieval:** Copied the complete hash strings beginning with `$pdf$` for each of the respective PDF documents (`My Locked PDF1.pdf`).
 * **Dictionary Attack Execution:** Navigated to the Networkwalks Password Cracker, pasted the extracted hashes for each file sequentially, activated the built-in dictionary list, and selected `Start Cracking`.
   
    ![Password Cracker Tool Execution 1](Passowrd_Hash.png)
@@ -136,4 +136,4 @@ LinkedIn:https://www.linkedin.com/in/kavithaal/
 
 ## 🗂️ Project Information
 
-**Program Name:** Cybersecurity at Networkwalks | **Week:** 03 | **Project:** Password cracking with jtr & network tools| **Repository:** GitHub
+**Program Name:** Cybersecurity at Networkwalks | **Week:** 03 | **Project:** Password cracking Using JTR| **Repository:** GitHub
